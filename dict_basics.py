@@ -1,7 +1,7 @@
-thisdict =	{
-  "brand": "Ford",
-  "model": "Mustang",
-  "year": 1964
+thisdict = {
+    "brand": "Ford",
+    "model": "Mustang",
+    "year": 1964
 }
 
 # to get the value or print the particular field
@@ -14,12 +14,12 @@ print(x)
 print(thisdict.keys())
 
 # to add something in dictionary
-thisdict["color"]="red"
+thisdict["color"] = "red"
 print(thisdict)
 print(thisdict.get("color"))
 
 # to update something in dictionary
-  
+
 print(thisdict)
 
 # to change something in dictionary
@@ -31,14 +31,14 @@ thisdict.pop("model")
 print(thisdict)
 
 # loop through dictionaries
-for x,y in thisdict.items():
-	print(x, " -> " , y)
-    
+for x, y in thisdict.items():
+    print(x, " -> ", y)
+
 for x in thisdict.keys():
-	print(x)
-    
+    print(x)
+
 for x in thisdict.values():
-	print(x)
+    print(x)
 
 # copy dictionary
 newdict = thisdict.copy()

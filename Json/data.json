@@ -1,0 +1,19 @@
+{
+  "empDetails": [
+    {
+      "empName" : "Jake",
+      "email" : "Jake@gmail.com",
+    "jobProfile" : "QA"
+    },
+    {
+      "empName" : "Adam",
+      "email" : "Adam@gmail.com",
+    "jobProfile" : "Developer"
+    },
+    {
+      "empName" : "John",
+      "email" : "John@gmail.com",
+    "jobProfile" : "Web-Developer"
+    }
+  ]
+}

@@ -3,4 +3,3 @@ my_list = [1,3,'s',5]
 for i, c in enumerate(my_list):
     print(i)
     print(c)
-b 

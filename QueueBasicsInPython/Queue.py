@@ -1,8 +1,11 @@
 queue = []
+
+
 def enqueue():
     element = input("Enter the element :")
     queue.append(element)
     print(queue, "is added to queue!")
+
 
 def dequeue():
     if not queue:
@@ -12,8 +15,10 @@ def dequeue():
         print("Element removed : ", e)
         print(queue)
 
+
 def display():
     print(queue)
+
 
 while True:
     print("Select the operations 1.Add, 2.Remove, 3. Show, 4.Quit")
